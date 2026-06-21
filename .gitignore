@@ -1,0 +1,40 @@
+#========================================#
+# SEGURIDAD Y CREDENCIALES (CRÍTICO).
+#========================================#
+#Ignora toda la carpeta de credenciales locales.
+/credenciales/
+
+#Ignora llaves de cuenta de servicio y certificados.
+*.json
+*.pem
+*.p12
+
+
+#========================================#
+# CÓDIGO Y COMPILACIÓN.
+#========================================#
+#Caché y entornos de Python.
+__pycache__/
+*.pyc
+.env
+venv/
+
+#Binarios y objetos de lenguaje compilados (C / Rust).
+*.o
+*.out
+/target/
+
+#=========================================#
+# DOCUMENTACIÓN Y RENDERIZADO
+#=========================================#
+#Entregables finales compilados desde Markdown (Marp/Pandoc).
+*.pdf
+*.html
+
+#=========================================#
+# ARCHIVOS DEL SISTEMA Y EDITORES
+#=========================================#
+# Archivos swap de Vim y copias de seguridad de consola.
+*.swp
+*~
+.*.swp
